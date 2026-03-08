@@ -1,0 +1,45 @@
+body{
+font-family: Arial;
+background: linear-gradient(120deg,#ff9966,#ff5e62);
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.container{
+background:white;
+padding:30px;
+width:350px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.3);
+text-align:center;
+}
+
+input,select{
+width:100%;
+padding:10px;
+margin:10px 0;
+}
+
+button{
+background:#ff5e62;
+color:white;
+padding:10px;
+border:none;
+width:100%;
+font-size:16px;
+cursor:pointer;
+border-radius:5px;
+}
+
+button:hover{
+background:#ff9966;
+}
+
+#bill{
+margin-top:15px;
+background:#f2f2f2;
+padding:10px;
+border-radius:5px;
+}
