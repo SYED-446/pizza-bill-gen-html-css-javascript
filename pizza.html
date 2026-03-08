@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+<div class="container">
+<h1>Pizza Bill Generator</h1>
+<label>Customer Name</label>
+<input type="text" id="name">
+
+<h3>Select Pizza</h3>
+
+<select id="pizza">
+
+<option value="200">Margherita - $200</option>
+<option value="250">Farmhouse - $250</option>
+<option value="300">Peppy Paneer - $300</option>
+<option value="350">Veg Extravaganza - $350</option>
+
+</select>
+<h3>Toppings</h3>
+
+<input type="checkbox" value="40" class="topping">Cheese $40 <br>
+<input type="checkbox" value="30" class="topping">Olives $30 <br>
+<input type="checkbox" value="50" class="topping">Mushroom $50 <br>
+
+<h3>Quantity</h3>
+
+<input type="number" id="qty" placeholder="Quantity" value="1">
+<br><br>
+<button onclick="generateBill()">Generate Bill</button>
+
+
+<div id="bill"></div>
+
+</div>
+
+<script src="script1.js"></script>
+
+</body>
+</html>
